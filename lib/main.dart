@@ -56,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     Address address = Address('My flutter.', 'New York');
+
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
